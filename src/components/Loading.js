@@ -142,6 +142,8 @@ export default class Loading extends Component {
     let marginBottom = 50;
     if (window.innerWidth < 600) {
       marginright = -10;
+    }
+    if (window.innerHeight < 600) {
       marginBottom = 30;
     }
     let heightBottom = window.innerHeight - heihtTop - boton.offsetHeight - marginBottom;

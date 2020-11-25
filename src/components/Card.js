@@ -37,7 +37,7 @@ function Card({ title, img, texto }) {
             <div className='m-2'>
                 <MDBRow>
                     <MDBCol md="12" lg="12">
-                        <MDBCard news className="my-3 efecto">
+                        <MDBCard news className="efecto">
                                 <img className='img'
                                     src={img}
                                     alt="Publicacion"

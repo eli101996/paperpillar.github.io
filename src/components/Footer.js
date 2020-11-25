@@ -134,13 +134,13 @@ img{
 }
 @media screen and (max-width:600px){
     h1{
-      margin-top:53% !important;
+      margin-top:55% !important;
       font-size:30px !important;
   }
 }
 @media screen and (max-width:500px){
     h1{
-      margin-top:55% !important;
+      margin-top:60% !important;
       font-size:25px !important;
   }
 }
