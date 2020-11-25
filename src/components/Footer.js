@@ -28,7 +28,7 @@ img{
     z-index: -1;
   }
   .circle:before{
-      width:100%;
+      width:110%;
       height:700px;
       ${'' /* border-radius:0 0 50% 50%; */}
       border-bottom-left-radius: 100%;
@@ -41,10 +41,10 @@ img{
   }
   h1{
       ${'' /* position: absolute; */}
-      margin-top:15%;
+      margin-top:5%;
       ${'' /* bottom:200px; */}
       text-align: center;
-      font-size:50px;
+      font-size:20px;
       color:white;
   }
   .outline{
