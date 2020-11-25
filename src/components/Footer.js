@@ -28,8 +28,8 @@ img{
     z-index: -1;
   }
   .circle:before{
-      width:100%;
-      height:700px !important;
+      width:100% !important;
+      height:600px !important;
       ${'' /* border-radius:0 0 50% 50%; */}
       border-bottom-left-radius: 80%;
       border-bottom-right-radius: 80%;
@@ -44,7 +44,7 @@ img{
       margin-top:22% !important;
       ${'' /* bottom:200px; */}
       text-align: center;
-      font-size:20px !important;
+      font-size:50px !important;
       color:white;
   }
   .outline{
