@@ -1,10 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
 
-import 'mdbreact/dist/css/mdb.css';
-import 'bootstrap-css-only/css/bootstrap.min.css';
-import '@fortawesome/fontawesome-free/css/all.min.css';
-
 const FooterStyled = styled.div`
 text-align: center;
 .contenedor{
@@ -35,8 +31,8 @@ img{
       width:100%;
       height:700px;
       ${'' /* border-radius:0 0 50% 50%; */}
-      border-bottom-left-radius: 80%;
-    border-bottom-right-radius: 80%;
+      border-bottom-left-radius: 100%;
+      border-bottom-right-radius: 100%;
       background-color:white;
       display:inline-block;
       vertical-align: middle;
@@ -45,8 +41,8 @@ img{
   }
   h1{
       ${'' /* position: absolute; */}
-      margin-top:22%;
-      bottom:200px;
+      margin-top:15%;
+      ${'' /* bottom:200px; */}
       text-align: center;
       font-size:50px;
       color:white;
