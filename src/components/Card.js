@@ -34,7 +34,7 @@ const CardStyled = styled.div`
 function Card({ title, img, texto }) {
     return (
         <CardStyled>
-            <div className='m-2'>
+            <div className=''>
                 <MDBRow>
                     <MDBCol md="12" lg="12">
                         <MDBCard news className="efecto">

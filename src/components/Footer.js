@@ -140,7 +140,7 @@ img{
 }
 @media screen and (max-width:500px){
     h1{
-      margin-top:60% !important;
+      margin-top:62% !important;
       font-size:25px !important;
   }
 }
