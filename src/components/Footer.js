@@ -41,7 +41,7 @@ img{
   }
   h1{
       ${'' /* position: absolute; */}
-      margin-top:18% !important;
+      margin-top:13% !important;
       ${'' /* bottom:200px; */}
       text-align: center;
       font-size:45px !important;
@@ -68,61 +68,61 @@ img{
   }
   @media screen and (max-width:1700px){
     h1{
-      margin-top:20% !important;
+      margin-top:15% !important;
       font-size:45px !important;
   }
 }
   @media screen and (max-width:1600px){
     h1{
-      margin-top:22% !important;
+      margin-top:18% !important;
       font-size:45px !important;
   }
 }
   @media screen and (max-width:1500px){
     h1{
-      margin-top:25% !important;
+      margin-top:20% !important;
       font-size:45px !important;
   }
 }
   @media screen and (max-width:1400px){
     h1{
-      margin-top:28% !important;
+      margin-top:23% !important;
       font-size:45px !important;
   }
 }
   @media screen and (max-width:1300px){
     h1{
-      margin-top:30% !important;
+      margin-top:25% !important;
       font-size:45px !important;
   }
 }
   @media screen and (max-width:1200px){
     h1{
-      margin-top:32% !important;
+      margin-top:25% !important;
       font-size:45px !important;
   }
 }
   @media screen and (max-width:1100px){
     h1{
-      margin-top:35% !important;
+      margin-top:28% !important;
       font-size:45px !important;
   }
 }
   @media screen and (max-width:1000px){
     h1{
-      margin-top:38% !important;
+      margin-top:30% !important;
       font-size:45px !important;
   }
 }
   @media screen and (max-width:900px){
     h1{
-      margin-top:40% !important;
+      margin-top:35% !important;
       font-size:45px !important;
   }
 }
   @media screen and (max-width:800px){
     h1{
-      margin-top:42% !important;
+      margin-top:40% !important;
       font-size:40px !important;
   }
 }
@@ -134,13 +134,13 @@ img{
 }
 @media screen and (max-width:600px){
     h1{
-      margin-top:48% !important;
+      margin-top:53% !important;
       font-size:30px !important;
   }
 }
 @media screen and (max-width:500px){
     h1{
-      margin-top:50% !important;
+      margin-top:60% !important;
       font-size:25px !important;
   }
 }
