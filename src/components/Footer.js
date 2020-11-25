@@ -41,7 +41,7 @@ img{
   }
   h1{
       ${'' /* position: absolute; */}
-      margin-top:13% !important;
+      margin-top:12% !important;
       ${'' /* bottom:200px; */}
       text-align: center;
       font-size:45px !important;
@@ -68,19 +68,19 @@ img{
   }
   @media screen and (max-width:1700px){
     h1{
-      margin-top:15% !important;
+      margin-top:13% !important;
       font-size:45px !important;
   }
 }
   @media screen and (max-width:1600px){
     h1{
-      margin-top:18% !important;
+      margin-top:15% !important;
       font-size:45px !important;
   }
 }
   @media screen and (max-width:1500px){
     h1{
-      margin-top:20% !important;
+      margin-top:18% !important;
       font-size:45px !important;
   }
 }
@@ -140,7 +140,7 @@ img{
 }
 @media screen and (max-width:500px){
     h1{
-      margin-top:60% !important;
+      margin-top:55% !important;
       font-size:25px !important;
   }
 }
