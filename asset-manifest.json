@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/paperpillar.github.io/static/css/main.96608206.chunk.css",
-    "main.js": "/paperpillar.github.io/static/js/main.035a1fd0.chunk.js",
-    "main.js.map": "/paperpillar.github.io/static/js/main.035a1fd0.chunk.js.map",
-    "runtime-main.js": "/paperpillar.github.io/static/js/runtime-main.cdac98c1.js",
-    "runtime-main.js.map": "/paperpillar.github.io/static/js/runtime-main.cdac98c1.js.map",
+    "main.js": "/paperpillar.github.io/static/js/main.95cf3f48.chunk.js",
+    "main.js.map": "/paperpillar.github.io/static/js/main.95cf3f48.chunk.js.map",
+    "runtime-main.js": "/paperpillar.github.io/static/js/runtime-main.e495c0a0.js",
+    "runtime-main.js.map": "/paperpillar.github.io/static/js/runtime-main.e495c0a0.js.map",
     "static/css/2.f5926616.chunk.css": "/paperpillar.github.io/static/css/2.f5926616.chunk.css",
-    "static/js/2.dca5b58d.chunk.js": "/paperpillar.github.io/static/js/2.dca5b58d.chunk.js",
-    "static/js/2.dca5b58d.chunk.js.map": "/paperpillar.github.io/static/js/2.dca5b58d.chunk.js.map",
-    "static/js/3.a05d2ad8.chunk.js": "/paperpillar.github.io/static/js/3.a05d2ad8.chunk.js",
-    "static/js/3.a05d2ad8.chunk.js.map": "/paperpillar.github.io/static/js/3.a05d2ad8.chunk.js.map",
+    "static/js/2.8cf1ca0e.chunk.js": "/paperpillar.github.io/static/js/2.8cf1ca0e.chunk.js",
+    "static/js/2.8cf1ca0e.chunk.js.map": "/paperpillar.github.io/static/js/2.8cf1ca0e.chunk.js.map",
+    "static/js/3.c0d95712.chunk.js": "/paperpillar.github.io/static/js/3.c0d95712.chunk.js",
+    "static/js/3.c0d95712.chunk.js.map": "/paperpillar.github.io/static/js/3.c0d95712.chunk.js.map",
     "index.html": "/paperpillar.github.io/index.html",
     "static/css/2.f5926616.chunk.css.map": "/paperpillar.github.io/static/css/2.f5926616.chunk.css.map",
     "static/css/main.96608206.chunk.css.map": "/paperpillar.github.io/static/css/main.96608206.chunk.css.map",
-    "static/js/2.dca5b58d.chunk.js.LICENSE.txt": "/paperpillar.github.io/static/js/2.dca5b58d.chunk.js.LICENSE.txt",
+    "static/js/2.8cf1ca0e.chunk.js.LICENSE.txt": "/paperpillar.github.io/static/js/2.8cf1ca0e.chunk.js.LICENSE.txt",
     "static/media/mdb.css": "/paperpillar.github.io/static/media/arrow_right.0897f985.svg",
     "static/media/all.min.css": "/paperpillar.github.io/static/media/fa-solid-900.46fdbd2d.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.cdac98c1.js",
+    "static/js/runtime-main.e495c0a0.js",
     "static/css/2.f5926616.chunk.css",
-    "static/js/2.dca5b58d.chunk.js",
+    "static/js/2.8cf1ca0e.chunk.js",
     "static/css/main.96608206.chunk.css",
-    "static/js/main.035a1fd0.chunk.js"
+    "static/js/main.95cf3f48.chunk.js"
   ]
 }
