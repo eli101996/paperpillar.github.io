@@ -29,7 +29,7 @@ img{
   }
   .circle:before{
       width:100% !important;
-      height:600px !important;
+      height:580px !important;
       ${'' /* border-radius:0 0 50% 50%; */}
       border-bottom-left-radius: 80%;
       border-bottom-right-radius: 80%;
@@ -44,7 +44,7 @@ img{
       margin-top:22% !important;
       ${'' /* bottom:200px; */}
       text-align: center;
-      font-size:50px !important;
+      font-size:45px !important;
       color:white;
   }
   .outline{
@@ -68,80 +68,80 @@ img{
   }
   @media screen and (max-width:1700px){
     h1{
-      margin-top:24%;
-      font-size:45px;
+      margin-top:24% !important;
+      font-size:45px !important;
   }
 }
   @media screen and (max-width:1600px){
     h1{
-      margin-top:25%;
-      font-size:45px;
+      margin-top:25% !important;
+      font-size:45px !important;
   }
 }
   @media screen and (max-width:1500px){
     h1{
-      margin-top:28%;
-      font-size:45px;
+      margin-top:28% !important;
+      font-size:45px !important;
   }
 }
   @media screen and (max-width:1400px){
     h1{
-      margin-top:30%;
-      font-size:45px;
+      margin-top:30% !important;
+      font-size:45px !important;
   }
 }
   @media screen and (max-width:1300px){
     h1{
-      margin-top:34%;
-      font-size:45px;
+      margin-top:34% !important;
+      font-size:45px !important;
   }
 }
   @media screen and (max-width:1200px){
     h1{
-      margin-top:37%;
-      font-size:45px;
+      margin-top:37% !important;
+      font-size:45px !important;
   }
 }
   @media screen and (max-width:1100px){
     h1{
-      margin-top:40%;
-      font-size:45px;
+      margin-top:40% !important;
+      font-size:45px !important;
   }
 }
   @media screen and (max-width:1000px){
     h1{
-      margin-top:45%;
-      font-size:45px;
+      margin-top:45% !important;
+      font-size:45px !important;
   }
 }
   @media screen and (max-width:900px){
     h1{
-      margin-top:50%;
-      font-size:45px;
+      margin-top:50% !important;
+      font-size:45px !important;
   }
 }
   @media screen and (max-width:800px){
     h1{
-      margin-top:60%;
-      font-size:40px;
+      margin-top:60% !important;
+      font-size:40px !important;
   }
 }
 @media screen and (max-width:700px){
     h1{
-      margin-top:65%;
-      font-size:35px;
+      margin-top:65% !important;
+      font-size:35px !important;
   }
 }
 @media screen and (max-width:600px){
     h1{
-      margin-top:68%;
-      font-size:30px;
+      margin-top:68% !important;
+      font-size:30px !important;
   }
 }
 @media screen and (max-width:500px){
     h1{
-      margin-top:78%;
-      font-size:25px;
+      margin-top:78% !important;
+      font-size:25px !important;
   }
 }
 `
