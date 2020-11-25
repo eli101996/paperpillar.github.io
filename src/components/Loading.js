@@ -154,7 +154,7 @@ export default class Loading extends Component {
       } else if ((document.documentElement.scrollHeight - document.documentElement.scrollTop) <= window.innerHeight) {
         // className = "footer";
         // boton.innerHTML = "Contactanos";
-        boton.style.transform = `translate(${widthRight}px, ${heightBottom+100}px)`;
+        boton.style.transform = `translate(${widthRight}px, ${heightBottom+200}px)`;
       } else {
         className = 'normal';
         boton.innerHTML = "Contactanos";

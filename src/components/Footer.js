@@ -29,7 +29,7 @@ img{
   }
   .circle:before{
       width:100% !important;
-      height:560px !important;
+      height:500px !important;
       ${'' /* border-radius:0 0 50% 50%; */}
       border-bottom-left-radius: 80%;
       border-bottom-right-radius: 80%;
