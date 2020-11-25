@@ -29,10 +29,10 @@ img{
   }
   .circle:before{
       width:100%;
-      height:800px;
+      height:700px;
       ${'' /* border-radius:0 0 50% 50%; */}
-      border-bottom-left-radius: 100%;
-      border-bottom-right-radius: 100%;
+      border-bottom-left-radius: 80%;
+      border-bottom-right-radius: 80%;
       background-color:white;
       display:inline-block;
       vertical-align: middle;
@@ -41,7 +41,7 @@ img{
   }
   h1{
       ${'' /* position: absolute; */}
-      margin-top:10% !important;
+      margin-top:15% !important;
       ${'' /* bottom:200px; */}
       text-align: center;
       font-size:20px !important;
