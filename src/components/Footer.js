@@ -29,7 +29,7 @@ img{
   }
   .circle:before{
       width:100%;
-      height:700px;
+      height:700px !important;
       ${'' /* border-radius:0 0 50% 50%; */}
       border-bottom-left-radius: 80%;
       border-bottom-right-radius: 80%;
@@ -41,7 +41,7 @@ img{
   }
   h1{
       ${'' /* position: absolute; */}
-      margin-top:15% !important;
+      margin-top:22% !important;
       ${'' /* bottom:200px; */}
       text-align: center;
       font-size:20px !important;
