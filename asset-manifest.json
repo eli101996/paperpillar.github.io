@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/paperpillar.github.io/static/css/main.96608206.chunk.css",
-    "main.js": "/paperpillar.github.io/static/js/main.ff5a6806.chunk.js",
-    "main.js.map": "/paperpillar.github.io/static/js/main.ff5a6806.chunk.js.map",
+    "main.css": "/paperpillar.github.io/static/css/main.849787a5.chunk.css",
+    "main.js": "/paperpillar.github.io/static/js/main.c5fdae3a.chunk.js",
+    "main.js.map": "/paperpillar.github.io/static/js/main.c5fdae3a.chunk.js.map",
     "runtime-main.js": "/paperpillar.github.io/static/js/runtime-main.cdac98c1.js",
     "runtime-main.js.map": "/paperpillar.github.io/static/js/runtime-main.cdac98c1.js.map",
     "static/css/2.f5926616.chunk.css": "/paperpillar.github.io/static/css/2.f5926616.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.a05d2ad8.chunk.js.map": "/paperpillar.github.io/static/js/3.a05d2ad8.chunk.js.map",
     "index.html": "/paperpillar.github.io/index.html",
     "static/css/2.f5926616.chunk.css.map": "/paperpillar.github.io/static/css/2.f5926616.chunk.css.map",
-    "static/css/main.96608206.chunk.css.map": "/paperpillar.github.io/static/css/main.96608206.chunk.css.map",
+    "static/css/main.849787a5.chunk.css.map": "/paperpillar.github.io/static/css/main.849787a5.chunk.css.map",
     "static/js/2.587a0dd4.chunk.js.LICENSE.txt": "/paperpillar.github.io/static/js/2.587a0dd4.chunk.js.LICENSE.txt",
     "static/media/mdb.css": "/paperpillar.github.io/static/media/arrow_right.0897f985.svg",
     "static/media/all.min.css": "/paperpillar.github.io/static/media/fa-solid-900.46fdbd2d.woff"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.cdac98c1.js",
     "static/css/2.f5926616.chunk.css",
     "static/js/2.587a0dd4.chunk.js",
-    "static/css/main.96608206.chunk.css",
-    "static/js/main.ff5a6806.chunk.js"
+    "static/css/main.849787a5.chunk.css",
+    "static/js/main.c5fdae3a.chunk.js"
   ]
 }
