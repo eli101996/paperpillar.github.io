@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Provider } from 'react-redux'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { HashRouter as Router, Route } from 'react-router-dom'
 // import store from './store'
 import './App.css';
 import 'mdbreact/dist/css/mdb.css';
@@ -18,8 +18,8 @@ function App() {
   return (
     // <Provider store={store}>
       <div>
-      <Home/>
-      {/* <Router>
+      {/* <Home/> */}
+      <Router>
       <Navegacion/>
       <Route exact path="/" render={() => {
           return <Home/>
@@ -28,7 +28,7 @@ function App() {
         <Route path="/blog" component={Blog}></Route>
         <Route path="/contact" component={Contact}></Route>
         <Route path="/about" component={About}></Route>
-      </Router> */}
+      </Router>
       </div>
   // </Provider>
   );
