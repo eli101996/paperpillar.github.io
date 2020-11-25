@@ -18,7 +18,7 @@ img{
     z-index: -2;
   }
   .circle{
-      width:110%;
+      width:100%;
       ${'' /* height:300px; */}
     ${'' /* border-radius:0 40px 0 0; */}
     ${'' /* background-color: #0000FF; */}
@@ -28,8 +28,8 @@ img{
     z-index: -1;
   }
   .circle:before{
-      width:110%;
-      height:700px;
+      width:100%;
+      height:800px;
       ${'' /* border-radius:0 0 50% 50%; */}
       border-bottom-left-radius: 100%;
       border-bottom-right-radius: 100%;
@@ -41,7 +41,7 @@ img{
   }
   h1{
       ${'' /* position: absolute; */}
-      margin-top:5% !important;
+      margin-top:10% !important;
       ${'' /* bottom:200px; */}
       text-align: center;
       font-size:20px !important;
