@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 // import {connect} from 'react-redux'
 import styled from 'styled-components'
+import 'mdbreact/dist/css/mdb.css';
+import 'bootstrap-css-only/css/bootstrap.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const HomeStyled = styled.div`
   text-align: center;

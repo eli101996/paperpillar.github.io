@@ -1,6 +1,10 @@
 import React from 'react';
 import styled from 'styled-components'
 
+import 'mdbreact/dist/css/mdb.css';
+import 'bootstrap-css-only/css/bootstrap.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 const FooterStyled = styled.div`
 text-align: center;
 .contenedor{
