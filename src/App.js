@@ -18,7 +18,8 @@ function App() {
   return (
     // <Provider store={store}>
       <div>
-      <Router>
+      <Home/>
+      {/* <Router>
       <Navegacion/>
       <Route exact path="/" render={() => {
           return <Home/>
@@ -27,7 +28,7 @@ function App() {
         <Route path="/blog" component={Blog}></Route>
         <Route path="/contact" component={Contact}></Route>
         <Route path="/about" component={About}></Route>
-      </Router>
+      </Router> */}
       </div>
   // </Provider>
   );
