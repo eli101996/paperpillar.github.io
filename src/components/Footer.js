@@ -38,7 +38,7 @@ img{
   } */}
   h1{
       ${'' /* position: absolute; */}
-      margin-top:17% !important;
+      margin-top:18% !important;
       ${'' /* bottom:200px; */}
       text-align: center;
       font-size:45px !important;
@@ -119,25 +119,25 @@ img{
 } */}
   @media screen and (max-width:800px){
     h1{
-      margin-top:22% !important;
+      margin-top:25% !important;
       font-size:40px !important;
   }
 }
 @media screen and (max-width:700px){
     h1{
-      margin-top:24% !important;
+      margin-top:30% !important;
       font-size:35px !important;
   }
 }
 @media screen and (max-width:600px){
     h1{
-      margin-top:26% !important;
+      margin-top:35% !important;
       font-size:30px !important;
   }
 }
 @media screen and (max-width:500px){
     h1{
-      margin-top:28% !important;
+      margin-top:40% !important;
       font-size:25px !important;
   }
 }
