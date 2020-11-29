@@ -38,7 +38,7 @@ img{
   } */}
   h1{
       ${'' /* position: absolute; */}
-      margin-top:8% !important;
+      ${'' /* margin-top:8% !important; */}
       ${'' /* bottom:200px; */}
       text-align: center;
       font-size:45px !important;
@@ -63,7 +63,7 @@ img{
       background: white;
       color: rgb(236, 56, 191);
   }
-  @media screen and (max-width:1700px){
+  ${'' /* @media screen and (max-width:1700px){
     h1{
       margin-top:8% !important;
       font-size:45px !important;
@@ -140,7 +140,7 @@ img{
       margin-top:62% !important;
       font-size:25px !important;
   }
-}
+} */}
 `
 
 function Footer() {
