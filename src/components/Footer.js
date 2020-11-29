@@ -38,7 +38,7 @@ img{
   } */}
   h1{
       ${'' /* position: absolute; */}
-      margin-top:100px !important;
+      margin-top:8% !important;
       ${'' /* bottom:200px; */}
       text-align: center;
       font-size:45px !important;
@@ -65,13 +65,13 @@ img{
   }
   @media screen and (max-width:1700px){
     h1{
-      margin-top:13% !important;
+      margin-top:8% !important;
       font-size:45px !important;
   }
 }
   @media screen and (max-width:1600px){
     h1{
-      margin-top:15% !important;
+      margin-top:8% !important;
       font-size:45px !important;
   }
 }
