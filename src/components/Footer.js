@@ -38,7 +38,7 @@ img{
   } */}
   h1{
       ${'' /* position: absolute; */}
-      margin-top:16% !important;
+      margin-top:17% !important;
       ${'' /* bottom:200px; */}
       text-align: center;
       font-size:45px !important;
@@ -116,31 +116,31 @@ img{
       margin-top:35% !important;
       font-size:45px !important;
   }
-}
+} */}
   @media screen and (max-width:800px){
     h1{
-      margin-top:40% !important;
+      margin-top:22% !important;
       font-size:40px !important;
   }
 }
 @media screen and (max-width:700px){
     h1{
-      margin-top:45% !important;
+      margin-top:24% !important;
       font-size:35px !important;
   }
 }
 @media screen and (max-width:600px){
     h1{
-      margin-top:55% !important;
+      margin-top:26% !important;
       font-size:30px !important;
   }
 }
 @media screen and (max-width:500px){
     h1{
-      margin-top:62% !important;
+      margin-top:28% !important;
       font-size:25px !important;
   }
-} */}
+}
 `
 
 function Footer() {
