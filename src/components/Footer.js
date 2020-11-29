@@ -16,8 +16,8 @@ img{
     width: 100%;
     height: 100%;
     z-index: -2;
-    border-top-left-radius: 100%;
-    border-top-right-radius: 100%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
   }
   ${'' /* .circle{
       width:100%;
@@ -38,7 +38,7 @@ img{
   } */}
   h1{
       ${'' /* position: absolute; */}
-      margin-top:15vw !important;
+      margin-top:9% !important;
       ${'' /* bottom:200px; */}
       text-align: center;
       font-size:45px !important;
