@@ -38,7 +38,7 @@ img{
   } */}
   h1{
       ${'' /* position: absolute; */}
-      margin-top:9% !important;
+      margin-top:12% !important;
       ${'' /* bottom:200px; */}
       text-align: center;
       font-size:45px !important;
