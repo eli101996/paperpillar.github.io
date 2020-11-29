@@ -16,12 +16,11 @@ img{
     width: 100%;
     height: 100%;
     z-index: -2;
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80%;
   }
-  .circle{
+  ${'' /* .circle{
       width:100%;
-      ${'' /* height:300px; */}
-    ${'' /* border-radius:0 40px 0 0; */}
-    ${'' /* background-color: #0000FF; */}
     position: absolute;
     bottom:45%;
     color:#FFF;
@@ -30,15 +29,13 @@ img{
   .circle:before{
       width:100% !important;
       height:500px !important;
-      ${'' /* border-radius:0 0 50% 50%; */}
       border-bottom-left-radius: 80%;
       border-bottom-right-radius: 80%;
       background-color:white;
       display:inline-block;
       vertical-align: middle;
-      ${'' /* margin:10px; */}
       content:'';
-  }
+  } */}
   h1{
       ${'' /* position: absolute; */}
       margin-top:12% !important;
@@ -150,7 +147,7 @@ function Footer() {
     return (
         <FooterStyled>
             <div className='contenedor'>
-            <div className='circle'></div>
+            {/* <div className='circle'></div> */}
             <img src="fondo3.jpg" alt='img' />
             <h1>Interested to work with us?</h1>
             <button color="info" className='outline'>Contactanos</button>
