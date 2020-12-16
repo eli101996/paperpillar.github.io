@@ -138,9 +138,9 @@ function Loading() {
     if (window.innerHeight < 600) {
       marginBottom = 30;
     }
-    if (window.innerHeight < 400) {
-      marginBottom = 15;
-    }
+    // if (window.innerHeight < 400) {
+    //   marginBottom = 15;
+    // }
 
     let heightBottom = window.innerHeight - heihtTop - boton.offsetHeight - marginBottom;
     let widthRight = window.innerWidth - widthLeft - boton.offsetWidth - marginright;
