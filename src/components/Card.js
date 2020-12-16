@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
-import { MDBRow, MDBCol, MDBCard } from 'mdbreact'
+import { MDBCard } from 'mdbreact'
 
 const CardStyled = styled.div`
   text-align: center;
@@ -11,7 +11,7 @@ const CardStyled = styled.div`
   .detalles{
     padding-top:5px;
     position: absolute;
-    bottom: -18%;
+    bottom: -50%;
     transition: 0.5s;
     width:100%
   }
@@ -27,34 +27,27 @@ const CardStyled = styled.div`
   .img:hover ~ .detalles{
     bottom: 0px;
   }
-  :hover.detalles{
-    bottom: 0px;
-}
 `
-function Card({ title, img, texto }) {
-    return (
-        <CardStyled>
-            <div className='m-2'>
-                <MDBRow>
-                    <MDBCol md="12" lg="12">
-                        <MDBCard news className="efecto">
-                                <img className='img'
-                                    src={img}
-                                    alt="Publicacion"
-                                />
-                                <MDBCard className='detalles'>
-                                    <div className="social-meta">
-                                        <p>{title}</p>
-                                        <p>{texto}</p>
-                                    </div>
-                                </MDBCard>
-                        </MDBCard>
-                    </MDBCol>
-                </MDBRow>
 
+function Card({ title, img, texto }) {
+  return (
+    <CardStyled>
+      <div className='mb-4'>
+        <MDBCard news className="efecto">
+          <img className='img'
+            src={img}
+            alt="Publicacion"
+          />
+          <MDBCard className='detalles'>
+            <div className="social-meta">
+              <p>{title}</p>
+              <p id='texto'>{texto}</p>
             </div>
-        </CardStyled>
-    );
+          </MDBCard>
+        </MDBCard>
+      </div>
+    </CardStyled>
+  );
 }
 
 

@@ -13,12 +13,9 @@ const GridIconStyled = styled.div`
 function GridIcon() {
     return (
         <GridIconStyled>
-            <MDBRow>
-                <MDBCol md="3" lg="3">
-                </MDBCol>
-                <MDBCol md="6" lg="6">
+                    <div className='container mx-auto'>
                     <MDBRow className='mb-3'>
-                        <MDBCol md="4" lg="4">
+                        <MDBCol md="4">
                             <Icon
                                 title={'U/Ux'}
                                 icon={'align-center'}
@@ -26,7 +23,7 @@ function GridIcon() {
                                 color={'purple'}
                             />
                         </MDBCol>
-                        <MDBCol md="4" lg="4">
+                        <MDBCol md="4">
                             <Icon
                                 title={'Icon'}
                                 icon={'blog'}
@@ -34,7 +31,7 @@ function GridIcon() {
                                 color={'peach'}
                             />
                         </MDBCol>
-                        <MDBCol md="4" lg="4">
+                        <MDBCol md="4">
                             <Icon
                                 title={'Motion'}
                                 icon={'book-open'}
@@ -43,8 +40,8 @@ function GridIcon() {
                             />
                         </MDBCol>
                     </MDBRow>
-                    <MDBRow>
-                        <MDBCol md="4" lg="4">
+                    <MDBRow className='r'>
+                        <MDBCol md="4">
                             <Icon
                                 title={'Development'}
                                 icon={'bug'}
@@ -52,7 +49,7 @@ function GridIcon() {
                                 color={'lady-lips'}
                             />
                         </MDBCol>
-                        <MDBCol md="4" lg="4">
+                        <MDBCol md="4">
                             <Icon
                                 title={'Branding'}
                                 icon={'chalkboard-teacher'}
@@ -60,7 +57,7 @@ function GridIcon() {
                                 color={'frozen-dreams'}
                             />
                         </MDBCol>
-                        <MDBCol md="4" lg="4">
+                        <MDBCol md="4">
                             <Icon
                                 title={'Photografic'}
                                 icon={'award'}
@@ -69,10 +66,7 @@ function GridIcon() {
                             />
                         </MDBCol>
                     </MDBRow>
-                </MDBCol>
-                <MDBCol md="3" lg="3">
-                </MDBCol>
-            </MDBRow>
+                    </div>
         </GridIconStyled>
 
     );

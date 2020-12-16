@@ -12,44 +12,76 @@ const ListHorizontalCardStyled = styled.div`
 function ListHorizontalCard() {
     return (
         <ListHorizontalCardStyled>
-            <MDBRow>
-                <MDBCol md="1" lg="1">
-                </MDBCol>
-                <MDBCol md="10" lg="10">
-                    <MDBRow className='mb-3'>
-                        <MDBCol md="3" lg="3">
-                            <Card 
+            {window.innerWidth < 1000 ?
+                <div className='container'>
+                    <MDBRow className='mb-6 r mx-auto'>
+                        <MDBCol md="6" lg="6">
+                            <Card
                                 title={'Patricia'}
                                 img={'1.jpeg'}
                                 texto={'Lorem ipsum addsf sahsajjd xsHjsakdkcka'}
                             />
                         </MDBCol>
-                        <MDBCol md="3" lg="3">
-                            <Card 
+                        <MDBCol md="6" lg="6">
+                            <Card
                                 title={'Laura'}
                                 img={'2.jpeg'}
                                 texto={'Lorem ipsum addsf sahsajjd xsHjsakdkcka'}
                             />
                         </MDBCol>
-                        <MDBCol md="3" lg="3">
-                            <Card 
+                    </MDBRow>
+                    <MDBRow className='mb-6 r mx-auto'>
+                        <MDBCol md="6" lg="6">
+                            <Card
                                 title={'Angela'}
                                 img={'3.jpg'}
                                 texto={'Lorem ipsum addsf sahsajjd xsHjsakdkcka'}
                             />
                         </MDBCol>
-                        <MDBCol md="3" lg="3">
-                            <Card 
+                        <MDBCol md="6" lg="6">
+                            <Card
                                 title={'Karen'}
                                 img={'4.jpeg'}
                                 texto={'Lorem ipsum addsf sahsajjd xsHjsakdkcka'}
                             />
                         </MDBCol>
                     </MDBRow>
-                </MDBCol>
-                <MDBCol md="1" lg="1">
-                </MDBCol>
-            </MDBRow>
+                </div>
+                :
+                <div className='container'>
+                    <MDBRow className='mb-3 r mx-auto'>
+                        <MDBCol md="3" lg="3">
+                            <Card
+                                title={'Patricia'}
+                                img={'1.jpeg'}
+                                texto={'Lorem ipsum addsf sahsajjd xsHjsakdkcka'}
+                            />
+                        </MDBCol>
+                        <MDBCol md="3" lg="3">
+                            <Card
+                                title={'Laura'}
+                                img={'2.jpeg'}
+                                texto={'Lorem ipsum addsf sahsajjd xsHjsakdkcka'}
+                            />
+                        </MDBCol>
+                        <MDBCol md="3" lg="3">
+                            <Card
+                                title={'Angela'}
+                                img={'3.jpg'}
+                                texto={'Lorem ipsum addsf sahsajjd xsHjsakdkcka'}
+                            />
+                        </MDBCol>
+                        <MDBCol md="3" lg="3">
+                            <Card
+                                title={'Karen'}
+                                img={'4.jpeg'}
+                                texto={'Lorem ipsum addsf sahsajjd xsHjsakdkcka'}
+                            />
+                        </MDBCol>
+                    </MDBRow>
+                </div>
+            }
+
         </ListHorizontalCardStyled>
     );
 }

@@ -1,8 +1,8 @@
 import React from 'react';
-// import { Provider } from 'react-redux'
+import { Provider } from 'react-redux'
 import { HashRouter as Router, Route } from 'react-router-dom'
 // import { BrowserRouter as Router, Route } from 'react-router-dom'
-// import store from './store'
+import store from './store'
 import './App.css';
 import 'mdbreact/dist/css/mdb.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
@@ -17,21 +17,20 @@ import About from './components/About'
 
 function App() {
   return (
-    // <Provider store={store}>
+    <Provider store={store}>
       <div>
-      {/* <Home/> */}
-      <Router>
-      <Navegacion/>
-      <Route exact path="/" render={() => {
-          return <Home/>
-        }}>
-        </Route>
-        <Route path="/blog" component={Blog}></Route>
-        <Route path="/contact" component={Contact}></Route>
-        <Route path="/about" component={About}></Route>
-      </Router>
+        <Router>
+          <Navegacion />
+          <Route exact path="/" render={() => {
+            return <Home />
+          }}>
+          </Route>
+          <Route path="/blog" component={Blog}></Route>
+          <Route path="/contact" component={Contact}></Route>
+          <Route path="/about" component={About}></Route>
+        </Router>
       </div>
-  // </Provider>
+    </Provider>
   );
 }
 
